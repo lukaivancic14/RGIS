@@ -1,7 +1,10 @@
-﻿var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
+﻿using namespace RDuporabnik{
 
-app.MapGet("/", () => "Pozdravjeln World!");
+    var builder = WebApplication.CreateBuilder(args);
+    var app = builder.Build();
 
-app.Run();
+    app.MapGet("/", () => "Pozdravjeln World!");
 
+    app.Run();
+
+}
